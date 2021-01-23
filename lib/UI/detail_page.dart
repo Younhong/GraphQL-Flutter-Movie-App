@@ -52,7 +52,8 @@ class DetailPage extends StatelessWidget{
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Icon(Icons.star, color: Colors.yellow,),
-                            Text(item["rating"].toString(), style: TextStyle(color: Colors.yellow),)
+                            Text(item["rating"].toString(), 
+                                 style: TextStyle(color: Colors.yellow),)
                           ],
                         ),
                       )
