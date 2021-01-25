@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_graphql_movie/UI/detail_page.dart';
 import 'package:graphql_flutter/graphql_flutter.dart';
 
-class MainPage extends StatelessWidget {
+class HomePage extends StatelessWidget {
 
   void onClickMovie(BuildContext context, Map _item){
     Navigator.push(context, MaterialPageRoute(builder: (context) => DetailPage(item: _item,)));

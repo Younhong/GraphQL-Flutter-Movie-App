@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_graphql_movie/Services/graphql_service.dart';
+import 'package:flutter_graphql_movie/UI/home.dart';
 import 'package:graphql_flutter/graphql_flutter.dart';
-import 'UI/main_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       ),
       home: GraphQLProvider(
         client: graphqlService.client,
-        child: MainPage(),
+        child: HomePage(),
       ),
     );
   }
